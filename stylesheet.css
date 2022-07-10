@@ -1,0 +1,44 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xx{
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar-dark .navbar-brand{
+    color: brown;
+}
+#nav-list a{
+    background-color: green;
+    color: white;
+    text-align: center;
+
+}
+#nav-list a:hover{
+    background-color: yellow;
+    color: black;
+}
+.col-xs-12{
+    width: 100%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+.navbar-dark .navbar-toggler{
+    background-color: green;
+    color: darkorange;
+}
+@media screen and (min-width: 576px){
+    #nav-list{
+        display: none;
+    }
+}
+@media screen and (max-width: 575px){
+    .row{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
